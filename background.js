@@ -11,6 +11,7 @@ var knownHeaders = {
     // 'Ruby on Rails': /Phusion Passenger/,
     'Express.js': /Express/,
     'PHP': /PHP\/?(.*)/,
+    'Dinkly': /DINKLY\/?(.*)/,
     'ASP.NET': /ASP\.NET/,
     'Nette': /Nette Framework/
   },
