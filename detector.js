@@ -314,9 +314,12 @@
     },
     'LiveStreet': function () {
       return window.LIVESTREET_SECURITY_KEY;
-    }
+    },
     'Zepto': function () {
       return window.Zepto;
+    },
+    'SiteKreator': function () {
+      return window.SK && SK.Singletons && [ 'sitekreator.com' ].contains( SK.Singletons.env.get('admin_domain') );
     }
   };
 

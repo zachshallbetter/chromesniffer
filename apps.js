@@ -390,7 +390,6 @@ var appinfo = {
     url: 'http://pivotx.net',
     priority: 1
   },
-
   'Shibboleth': {
     icon: 'shibboleth.png',
     url: 'http://shibboleth.internet2.edu/',
@@ -401,10 +400,14 @@ var appinfo = {
     url: 'http://www.alfresco.com',
     priority: 1
   },
-
   'ClanSphere': {
     icon: 'ClanSphere.png',
     url: 'http://csphere.eu',
+    priority: 1
+  },
+  'SiteKreator': {
+    icon: 'SiteKreator.ico',
+    url: 'http://sitekreator.com',
     priority: 1
   },
 
