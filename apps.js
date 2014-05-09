@@ -24,7 +24,6 @@ var appinfo = {
     url: 'http://blogger.com',
     priority: 0.9
   },
-
   'Webs': {
     icon: 'webs.ico',
     url: 'http://www.webs.com/',
@@ -99,7 +98,6 @@ var appinfo = {
     url: 'http://xenforo.com',
     priority: 1
   },
-
   'Drupal': {
     icon: 'Drupal.ico',
     url: 'http://drupal.org',
@@ -110,7 +108,6 @@ var appinfo = {
     url: 'http://www.ubercart.org/',
     priority: 0.9 // higher priority compared with Drupal
   },
-
   'AlphaCMS': {
     icon: 'alphacms.ico',
     url: 'http://www.mego.com.vn',
@@ -121,7 +118,6 @@ var appinfo = {
     url: 'http://www.tomatocms.com/',
     priority: 1
   },
-
   'WordPress': {
     icon: 'WordPress.ico',
     url: 'http://wordpress.org',
@@ -529,7 +525,7 @@ var appinfo = {
   'Plus1': {
     title: 'Google Plus 1',
     icon: 'plus1.png',
-    url: 'http://www.google.com/+1/button/',
+    url: 'http://www.google.com/1/button/',
     priority: 2.9
   },
   'AddThis': {
@@ -773,6 +769,56 @@ var appinfo = {
     url: 'https://github.com/lewsid/dinkly/',
     priority: 1.5
   },
+  'AwsCloudFront': {
+     icon: 'AwsCloudFront.png',
+     url: 'http://aws.amazon.com/cloudfront/',
+     priority: 1
+   },
+   'AwsS3': {
+     icon: 'AwsS3.png',
+     url: 'http://aws.amazon.com/s3/',
+     priority: 1
+   },
+   'Youtube': {
+     icon: 'Youtube.ico',
+     url: 'http://www.youtube.com/',
+     priority: 1
+   },
+   'Dailymotion': {
+     icon: 'Dailymotion.ico',
+     url: 'http://www.dailymotion.com/',
+     priority: 1
+   },
+   'Vimeo': {
+     icon: 'Vimeo.ico',
+     url: 'https://vimeo.com/',
+     priority: 1
+   },
+   'FlickR': {
+     icon: 'FlickR.ico',
+     url: 'http://www.flickr.com/',
+     priority: 1
+   },
+   'Olark': {
+     icon: 'Olark.png',
+     url: 'http://www.olark.com/',
+     priority: 1
+   },
+   'SegmentIO': {
+     icon: 'SegmentIO.ico',
+     url: 'https://segment.io',
+     priority: 1
+   },
+   'Optimizely': {
+     icon: 'Optimizely.ico',
+     url: 'https://www.optimizely.com/',
+     priority: 1
+   },
+   'Typography': {
+     icon: 'Typography.ico',
+     url: 'https://www.typography.com/',
+     priority: 1
+   },
 
   // ==== misc ====
   '': { // default

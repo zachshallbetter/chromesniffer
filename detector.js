@@ -165,7 +165,15 @@
     'Prostores': /-legacycss\/Asset">/,
     'osCommerce': /(product_info\.php\?products_id|_eof \/\/-->)/,
     'OpenCart': /index.php\?route=product\/product/,
-    'Shibboleth': /<form action="\/idp\/Authn\/UserPassword" method="post">/
+    'Shibboleth': /<form action="\/idp\/Authn\/UserPassword" method="post">/,
+    'AwsCloudFront': /<(a|link|script|img)[^>]*.cloudfront.net.*>/,
+    'AwsS3': /<(a|link|script|img)[^>]*.s3.amazonaws.com.*>/,
+    'Youtube': /<iframe[^>]*www.youtube.com\/embed.*>/,
+    'Dailymotion': /iframe[^>]*www.dailymotion.com\/embed.*>/,
+    'Vimeo': /<iframe[^>]*player.vimeo.com\/video.*>/,
+    'FlickR': /<(a|img)[^>]*.flickr.com.*>/,
+    'Optimizely': /<script[^>]*cdn.optimizely.com.*>/,
+    'Typography': /<link[^>]*cloud.typography.com.*>/,
   };
 
   for (var t in text_tests) {
@@ -320,7 +328,13 @@
     },
     'SiteKreator': function () {
       return window.SK && SK.Singletons && [ 'sitekreator.com' ].contains( SK.Singletons.env.get('admin_domain') );
-    }
+    },
+    'Olark': function () {
+      return window.olark;
+    },
+    'SegmentIO': function () {
+      return window.Segment;
+    },
   };
 
   for (var t in js_tests) {
